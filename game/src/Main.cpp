@@ -6,11 +6,11 @@
 #include "bn_sprite_items_dot.h"
 
 int main() {
-    bn::core::init();
+    bn::core::init(); //loads the game engine
 
-    bn::backdrop::set_color(bn::color(0, 0, 0));
+    bn::backdrop::set_color(bn::color(43%30, 238%30, 251%30)); //sets the backdrop color.
 
-    auto dot = bn::sprite_items::dot.create_sprite(0, 0);
+    auto dot = bn::sprite_items::dot.create_sprite(0, 0); //define?
 
     bn::fixed speed = 1.5;
 
